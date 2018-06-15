@@ -19,6 +19,7 @@
   "dependencies": {
     "debug": "3.1.0",
     "dotenv": "6.0.0",
+    "inquirer": "6.0.0",
     "meow": "5.0.0",
     "rc": "1.2.8",
     "shelljs": "0.8.2"

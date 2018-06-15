@@ -9,6 +9,8 @@ if (cli.flags.list) {
 	apps.show(cli.flags.info);
 } else if (cli.flags.profile && cli.flags.target) {
 	apps.select(cli.flags.profile, cli.flags.target);
+} else if (cli.flags.profile) {
+	apps.targetsPrompt(cli.flags.profile);
 } else {
 	cli.showHelp();
 }
