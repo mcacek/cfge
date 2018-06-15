@@ -1,2 +1,2 @@
-# Configee
+# Cfge
 A configuration manage tool.
